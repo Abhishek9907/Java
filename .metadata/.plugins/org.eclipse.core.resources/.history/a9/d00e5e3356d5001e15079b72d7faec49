@@ -1,0 +1,15 @@
+package funda;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=1;
+		long b=2;
+		byte c;
+		short d;
+		double e;
+
+	}
+
+}

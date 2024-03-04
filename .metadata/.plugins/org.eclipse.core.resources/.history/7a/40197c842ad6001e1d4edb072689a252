@@ -1,0 +1,14 @@
+package funda;
+
+import java.util.Scanner;
+public class AverageOfThree {
+
+	public static void main(String[] args) {
+	   String str=new String();
+	   int m1,m2,m3;
+	   Scanner sc= new Scanner(System.in);
+	   System.out.println("Enter Your Nname Below ");
+
+	}
+
+}
