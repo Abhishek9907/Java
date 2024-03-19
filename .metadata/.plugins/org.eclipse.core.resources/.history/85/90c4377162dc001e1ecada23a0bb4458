@@ -1,0 +1,12 @@
+package funda;
+
+import java.util.Scanner;
+
+public class InterstingCharacterPattern {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+
+	}
+
+}

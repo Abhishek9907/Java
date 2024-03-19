@@ -1,0 +1,36 @@
+package patterns;
+
+import java.util.Scanner;
+
+public class HalfDiamondPattern {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int i=1;
+		while(i<=n) {
+			int j=1;
+			while(j<=i) {
+				System.out.print("*");
+				j=j+1;
+			}
+
+			System.out.println();
+			i=i+1;
+		}
+		//System.out.println("Test Print");
+		int i2=2;
+		while(i2<=n) {
+			System.out.println("Test Print");
+		int j2=n-i;
+		while(j2>=1) {
+			System.out.print("*");
+			j2=j2-1;
+		}
+           System.out.println();
+           i2=i2+1;
+		}
+	}
+
+}
