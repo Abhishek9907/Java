@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class LastInList{
     public static void main(String args[]){
         System.out.println("ArraryList Last in list example ");
+        System.out.println("What exactly is the issue here");
 
         ArrayList<String> names = new ArrayList<>();
         System.out.println("Enter the names ");
@@ -17,6 +18,7 @@ public class LastInList{
            names.add(name); 
         }
         System.out.println(names);
+        
     
     }
 }
